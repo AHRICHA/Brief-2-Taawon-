@@ -1,0 +1,10 @@
+@import "tailwindcss";
+body {
+    background-color: #F2E0DF;
+}
+a {
+   font-family: Italiana;
+}
+@theme {
+    /* ... */
+}
