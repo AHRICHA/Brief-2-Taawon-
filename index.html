@@ -1,18 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Brief 2 TAAWON</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-[#F2E0DF]">
-    <header class="flex gap-92 ">
-        <div>
-          <img class="flex mx-auto h-20 gap-12" src="Images & Icons/TAAWON  Logo.webp" alt="hero img">
+<body class="bg-[#F2E0DF]">
+    <header class="relative flex flex-col md:flex-row md:items-center md:justify-center gap-4 px-4 md:px-8 md:min-h-24">
+        <div class="md:absolute md:left-0 md:top-0">
+          <img class="mx-auto h-20 w-auto md:mx-0" src="Images & Icons/TAAWON  Logo.webp" alt="Logo">
         </div>
-        <nav class="flex gap-6 pt-7 font-bold">
+        <nav class="flex flex-wrap justify-center gap-4 md:gap-6 py-4 md:pt-0 font-bold">
             <a href="index.html">Accueil</a>
             <a href="cooperatives.html">Annuaire</a>
             <a href="a-propos.html">A propos</a>
@@ -20,57 +19,49 @@
       </nav>
     </header>
     <main>
-      <section class="relative flex min-h-[600px] items-center justify-center bg-cover bg-center bg-no-repeat px-5 py-16 text-center text-white"
-        style="background-image: url('Images & Icons/index-main-img.webp');">
-        <div class="absolute inset-0 bg-black/30"></div>
-        <div class="relative z-10 max-w-3xl">
-            <h1 class="flex justify-center text-[#F2E0DF] font-medium text-8xl">TAAWON</h1>
-            <h2 class="text-[#BC7A48]">ENSEMBLE, VALORISONS L’ARTISANAT MAROCAIN</h2>
-            <p>
-          Découvrez les coopératives marocaines, leurs créations uniques et les
-          artisans qui perpétuent notre patrimoine. Soutenons ensemble un
-          artisanat authentique, durable et solidaire.
-            </p>
-            <div class="flex flex-wrap justify-center gap-4">
-                <button class="bg-[#BC7A48] text-[#F2E0DF] mt-2 rounded-lg border-black px-6 py-3 font-semibold transition hover:bg-transparent hover:text-white hover:border-2 hover:border-white hover:text-black">
-                    <a href="cooperatives.html"></a> Découvrir les coopératives
-                </button>
-                <button class="rounded-lg border-2 mt-2 border-[#BC7A48] px-6 py-3 font-semibold transition hover:bg-[#BC7A48] hover:text-black">
-                    <a href="a-propos.html"></a> En savoir plus
-                </button>
+        <section class="relative flex min-h-[450px] md:min-h-[600px] items-center justify-center bg-cover bg-center bg-no-repeat px-4 py-12 md:px-5 md:py-16 text-center text-white" style="background-image: url('Images & Icons/index-main-img.webp');">
+            <div class="absolute inset-0 bg-black/30"></div>
+            <div class="relative z-10 max-w-3xl">
+                <h1 class="flex justify-center text-[#F2E0DF] font-medium text-5xl sm:text-6xl md:text-8xl">TAAWON</h1>
+                <h2 class="text-[#BC7A48]">ENSEMBLE, VALORISONS L’ARTISANAT MAROCAIN</h2>
+                <p class="text-base sm:text-lg md:text-xl leading-relaxed">
+                   Découvrez les coopératives marocaines, leurs créations uniques et les
+                   artisans qui perpétuent notre patrimoine. Soutenons ensemble un
+                   artisanat authentique, durable et solidaire.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button class="bg-[#BC7A48] text-[#F2E0DF] mt-2 rounded-lg border-black px-6 py-3 font-semibold transition hover:bg-transparent hover:text-white hover:border-2 hover:border-white hover:text-black">
+                        <a href="cooperatives.html"></a> Découvrir les coopératives
+                    </button>
+                    <button class="rounded-lg border-2 mt-2 border-[#BC7A48] px-6 py-3 font-semibold transition hover:bg-[#BC7A48] hover:text-black">
+                        <a href="a-propos.html"></a> En savoir plus
+                    </button>
+                </div>
             </div>
-        </div>
-      </section>
-      <section class="flex justify-around">
-        <div>
-            <img class="mx-auto h-32 mt-2" src="Images & Icons\Moroccan Artisan Craft Emblem.png" alt="Moroccan Artisan Craft Emblem">
-            <div class="text-2xl mx-3">
-                <h2 class="flex justify-center">1500+</h2>    
-                <p>Artisans</p>
-            </div>
-        </div>
-        <div>
-            <img class="mx-auto h-32 mt-2" src="Images & Icons\stakeholder-management_16939288.png" alt="Moroccan Artisan Craft Emblem">
-            <div class="text-2xl">
-                <h2 class="flex justify-center">9+</h2>
-                <p>coopératives</p>
-            </div>
-        </div>
-        <div>
-            <img class="mx-auto h-32 mt-2" src="Images & Icons/Morocco Map with Golden Location Pins (1).png" alt="Moroccan map Emblem">
-            <div class="text-2xl">
-                <h2 class="flex justify-center">12</h2>
-                <p class="flex justify-center">Régions</p>
-            </div>
-        </div>
-        <div>
-            <img class="mx-auto h-32 mt-2" src="Images & Icons/art-craft_12431681.png" alt="products Emblem">
-            <div class="text-2xl">
-                <h2 class="flex justify-center">250+</h2>
-                <p class="flex justify-center">Products</p>
-            </div>
-        </div>
-      </section>
+        </section>
+        <section class="grid grid-cols-2 md:grid-cols-4 gap-8 px-4 text-center">
+             <div class="flex flex-col items-center gap-2">
+                <img class="h-24 md:h-32 w-auto object-contain" src="Images & Icons/Moroccan Artisan Craft Emblem.png" alt="Moroccan Artisan Craft Emblem">
+                <h2 class="text-2xl font-bold">1500+</h2>
+                <p class="text-lg">Artisans</p>
+             </div>
+             <div class="flex flex-col items-center gap-2">
+                <img class="h-24 md:h-32 w-auto object-contain" src="Images & Icons/stakeholder-management_16939288.png" alt="Cooperatives">
+                <h2 class="text-2xl font-bold">9+</h2>
+                <p class="text-lg">Coopératives</p>
+             </div>
+             <div class="flex flex-col items-center gap-2">
+                <img class="h-24 md:h-32 w-auto object-contain" src="Images & Icons/Morocco Map with Golden Location Pins (1).png" alt="Moroccan map">
+                <h2 class="text-2xl font-bold">12</h2>
+                <p class="text-lg">Régions</p>
+             </div>
+             <div class="flex flex-col items-center gap-2">
+                <img class="h-24 md:h-32 w-auto object-contain" src="Images & Icons/art-craft_12431681.png" alt="Artisan products">
+                <h2 class="text-2xl font-bold">250+</h2>
+                <p class="text-lg">Produits</p>
+             </div>
+        </section>
+      <hr class="bg-black mx-8 my-6">
       <section class="px-5 py-6 md:px-8">
         <h2 class="mb-5 text-3xl font-extrabold text-black">
             Nos catégories d’artisanat
@@ -80,49 +71,50 @@
                 <div class="group relative min-h-52 overflow-hidden rounded-xl">
                     <img src="Images & Icons/pexels-mag-photography-1501456-32218413.jpg" alt="Tapis marocains" class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105">
                     <div class="absolute inset-0 bg-black/20 transition group-hover:bg-black/35"></div>
-                    <h3 class="absolute bottom-4 left-5 text-4xl text-[#F2E0DF]">Tapis</h3>
+                    <h3 class="absolute bottom-4 left-5 text-2xl sm:text-3xl md:text-4xl text-[#F2E0DF]">Tapis</h3>
                 </div>
                 <div class="group relative min-h-32 overflow-hidden rounded-xl">
                     <img src="Images & Icons/zellige.jpg" alt="Zellige marocain" class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105">
                     <div class="absolute inset-0 bg-black/20 transition group-hover:bg-black/35"></div>
-                    <h3 class="absolute bottom-4 left-5 text-4xl text-[#F2E0DF]"> Zellige</h3>
+                    <h3 class="absolute bottom-4 left-5 text-2xl sm:text-3xl md:text-4xl text-[#F2E0DF]"> Zellige</h3>
                 </div>
                 <div class="group relative min-h-32 overflow-hidden rounded-xl">
                     <img src="Images & Icons/pexels-abdellah-photographie-377315263-16725454.jpg" alt="Vannerie artisanale" class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105">
                     <div class="absolute inset-0 bg-black/20 transition group-hover:bg-black/35"></div>
-                    <h3 class="absolute bottom-4 left-5 text-4xl text-[#F2E0DF]">Vannerie</h3>
+                    <h3 class="absolute bottom-4 left-5 text-2xl sm:text-3xl md:text-4xl text-[#F2E0DF]">Vannerie</h3>
                 </div>
             </div>
             <div class="grid grid-rows-4 gap-3">
                 <div class="group relative min-h-32 overflow-hidden rounded-xl">
                     <img src="Images & Icons/pexels-youssef-baalla-421912064-21326994.jpg" alt="Articles en cuir marocain" class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105">
                     <div class="absolute inset-0 bg-black/20 transition group-hover:bg-black/35"></div>
-                    <h3 class="absolute bottom-4 left-5 text-4xl text-[#F2E0DF]"> Cuir</h3>
+                    <h3 class="absolute bottom-4 left-5 text-2xl sm:text-3xl md:text-4xl text-[#F2E0DF]"> Cuir</h3>
                 </div>
                 <div class="group relative min-h-32 overflow-hidden rounded-xl">
                     <img src="Images & Icons/Amlou-marocain.webp" alt="Amlou marocain" class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105">
                     <div class="absolute inset-0 bg-black/20 transition group-hover:bg-black/35"></div>
-                    <h3 class="absolute bottom-4 left-5 text-4xl text-[#F2E0DF]"> Amlou</h3>
+                    <h3 class="absolute bottom-4 left-5 text-2xl sm:text-3xl md:text-4xl text-[#F2E0DF]"> Amlou</h3>
                 </div>
                 <div class="group relative min-h-32 overflow-hidden rounded-xl">
                     <img src="Images & Icons/pexels-izafi-39852997.jpg" alt="Olives marocaines" class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105">
                     <div class="absolute inset-0 bg-black/20 transition group-hover:bg-black/35"></div>
-                    <h3 class="absolute bottom-4 left-5 text-4xl text-[#F2E0DF]"> Olives</h3>
+                    <h3 class="absolute bottom-4 left-5 text-2xl sm:text-3xl md:text-4xl text-[#F2E0DF]"> Olives</h3>
                 </div>
                 <div class="group relative min-h-32 overflow-hidden rounded-xl">
                     <img src="Images & Icons/pexels-pramodtiwari-13575092.jpg" alt="Poterie marocaine" class="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105">
                     <div class="absolute inset-0 bg-black/20 transition group-hover:bg-black/35"></div>
-                    <h3 class="absolute bottom-4 left-5 text-4xl text-[#F2E0DF]">Poterie</h3>
+                    <h3 class="absolute bottom-4 left-5 text-2xl sm:text-3xl md:text-4xl text-[#F2E0DF]">Poterie</h3>
                 </div>
             </div>
         </div>
     </section>
+    <hr class="bg-black mx-8">
     <section class="px-5 py-6 md:px-8">
         <h2 class="mb-5 text-3xl font-extrabold text-black">
             Testimonials
         </h2>
-         <div class="flex justify-between">
-            <article class="bg-[#936B4A] border-amber-950 w-[383px] rounded-2xl p-3.5">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <article class="bg-[#936B4A] border-amber-950 w-full min-w-0 rounded-2xl p-3.5">
                 <span class="block text-4xl font-bold leading-8 text-[#ffe30f]">〝</span>
                 <p class="text-[#F2E0DF] p-2">Grâce à la mise en valeur de notre travail, davantage de personnes découvrent nos créations.</p>
                 <div class="flex items-center">
@@ -133,7 +125,7 @@
                     </div>
                 </div>
             </article>
-            <article class="bg-[#936B4A] w-[383px] border-amber-950 rounded-2xl p-3.5">
+            <article class="bg-[#936B4A] w-full min-w-0 border-amber-950 rounded-2xl p-3.5">
                 <span class="block text-4xl font-bold leading-8 text-[#ffe30f]">〝</span>
                 <p class="text-[#F2E0DF] p-3.5">J’ai pu découvrir des coopératives et des savoir-faire que je ne connaissais pas.</p>
                 <div class="flex items-center">
@@ -144,7 +136,7 @@
                     </div>
                 </div>
             </article>
-            <article class="bg-[#936B4A]  w-[383px]  border-amber-950 rounded-2xl p-3.5">
+            <article class="bg-[#936B4A]  w-full min-w-0  border-amber-950 rounded-2xl p-3.5">
                 <span class="block text-4xl font-bold leading-8 text-[#ffe30f]">〝</span>
                 <p class="text-[#F2E0DF] p-2">Chaque création raconte une histoire et transmet une partie de notre patrimoine.</p>
                 <div class="flex items-center">
@@ -158,26 +150,27 @@
         </div>
     </section>
     <section>
-        <div class="bg-[#DBA156] w-full h-[300px] p-10">
+        <div class="bg-[#DBA156] w-full min-h-[300px] p-5 sm:p-8 md:p-10">
             <div class="flex flex-col ">
                 <h1 class="font-bold text-black text-xl">Restez informé(e)</h1>
                 <p class="text-[#3F3F3D]">Recevez nos dernières actualités et nouveautés directement dans votre boîte mail.</p>
             </div>
-            <div class="flex justify-center items-center gap-2">
-                <div class="bg-[#F2E0DF] border-black rounded-2xl p-2 min-w-3/6 mt-4" >
-                    <input type="email" id="email" placeholder="Entrez votre adresse e-mail" class="w-full px-3 bg-transparent outline-none border-black rounded-2xl" required>
+            <div class="flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-2">
+                <div class="bg-[#F2E0DF] border border-black rounded-2xl p-2 w-full sm:w-3/5 mt-4" >
+                    <input type="email" id="email" placeholder="Entrez votre adresse e-mail" class="w-full px-3 bg-transparent outline-none" required>
                 </div>
-                <button class="bg-black text-white border-black rounded-2xl p-2 mt-4 hover:bg-[#f5e8e7] hover:text-black">S'abonner</button>
+                <button class="bg-black text-white border-black rounded-2xl p-2 mt-2 sm:mt-4 w-full sm:w-auto hover:bg-[#f5e8e7] hover:text-black">S'abonner</button>
             </div>
         </div>
     </section>      
     </main>
-    <footer class="w-full bg-[#ae906b] text-gray-300 py-10 px-6 md:px-16 border-t border-gray-800  bottom-0">
+</body>
+<footer class="w-full bg-[#ae906b] text-gray-300 py-10 px-6 md:px-16 border-t border-gray-800  bottom-0">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 pb-8 border-b border-gray-800">
         <div class="flex-shrink-0">
             <img src="Images & Icons/TAAWON  Logo.webp" alt="Logo" class="h-16 w-auto object-contain">
         </div>
-        <div class="flex flex-wrap items-center justify-center gap-6 text-sm">
+        <div class="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-sm">
             <a href="https://www.instagram.com/" target="_blank" class="flex items-center gap-2 hover:text-white transition"> 
                 <img src="Images & Icons/instagram.png" alt="instagram" class="w-5 h-5 object-contain"> Taawon Africa
             </a>
@@ -204,5 +197,5 @@
         <h4>© 2026 Taawon — Valorisons ensemble l’artisanat marocain. Conçu et développé par la squad Taawon.</h4>
     </div>
 </footer>
-  </body>
-</html>
+</html>          
+
