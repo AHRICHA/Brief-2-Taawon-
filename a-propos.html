@@ -3,94 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Brief 2 Taawon</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <header>
-        <img src="Images & Icons/TAAWON  Logo.webp" alt="hero img">
-        <nav>
-            <a href="index.html">Accuiel</a>
+<body class="bg-[#F2E0DF]">
+    <header class="relative flex flex-col md:flex-row md:items-center md:justify-center gap-4 px-4 md:px-8 md:min-h-24">
+        <div class="md:absolute md:left-0 md:top-0">
+          <img class="mx-auto h-20 w-auto md:mx-0" src="Images & Icons/TAAWON  Logo.webp" alt="Logo">
+        </div>
+        <nav class="flex flex-wrap justify-center gap-4 md:gap-6 py-4 md:pt-0 font-bold">
+            <a href="index.html">Accueil</a>
             <a href="cooperatives.html">Annuaire</a>
-            <a href="cooperative.html">Cooperative</a>
             <a href="a-propos.html">A propos</a>
             <a href="patrenaire.html">Devenire Partenaire</a>
-        </nav>
+      </nav>
     </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer>
-    <div>
-    <img src="images/Logo Taawon.png" alt="Logo">
-    </div>
-    <a href="https://www.instagram.com/" > <img src="Images & Icons/instagram.png" alt="instagram"> Taawon Africa</a>
-    <a href="https://www.facebook.com/"> <img src="Images & Icons/social-media_13651151.png" alt="facebook">Taawon Africa</a>
-    <a href="https://x.com/"><img src="Images & Icons/twitter_5968958.png" alt="x">Taawon 02</a>
-    <a href="https://www.facebook.com/"><img src="Images & Icons/e-mail_1.png" alt="email">TawwonAfrica@gmail.com</a>
-    <div>
-    </div>
-    <div> 
-        <img src="Images & Icons/onssa-logo-transparent.png" alt="img">
-        <img src="Images & Icons/ammps-logo-transparent.png" alt="img">
-        <img src="Images & Icons/ompic-logo-transparent.png" alt="img">
-    </div>
-    <div>
-        <h4>© 2026 Taawon — Valorisons ensemble l’artisanat marocain. Conçu et développé par la squad Taawon.</h4>
-    </div>
-</footer>    
-
+    <main>
+        <section class="relative flex items-center min-h-[70vh] md:h-screen bg-cover bg-center bg-no-repeat px-4 md:px-8" style="background-image: url('Images & Icons/apropos-main-img.webp');">
+            <div class="absolute inset-0 bg-black/30"></div>
+            <div class="text-[#F2E0DF] max-w-3xl relative z-10">
+                <h1 class="text-4xl md:text-6xl font-bold">A propos de Taawon</h1>
+                <p class="mt-4 text-xl md:text-3xl">Ensemble pour un artisanat durable et solidaire.</p>
+            </div>
+        </section>
+        <section class="py-12 px-8">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 md:gap-12">
+                <div class="flex-1">
+                    <h2 class="mb-8 text-3xl font-extrabold text-black">Notre mission</h2>
+                    <p class="text-xl md:text-2xl leading-relaxed">Taawon est une association qui soutient et valorise les coopératives artisanales marocaines en leur offrant une meilleure visibilité, des opportunités et un accompagnement durable.</p>
+                </div>
+                <img class="w-full md:w-[45%] h-auto object-cover border rounded-2xl my-6" src="Images & Icons/apropos-second-img.webp">
+            </div>
+        </section>
+        <hr class="bg-black mx-8" >
+         <section class="py-12 px-8">
+            <h2 class="mb-5 text-3xl font-extrabold text-black">Nos valeurs</h2>
+            <div class="flex flex-col sm:flex-row justify-around items-center sm:items-start gap-8">
+                <div class="text-center">
+                    <img class="mx-auto h-24 md:h-32 mt-2" src="Images & Icons/hand-holding-hand-solid-full.svg">
+                    <p class="mt-4 text-2xl font-semibold">Coopérations</p>
+                </div>
+                <div class="text-center">
+                    <img class="mx-auto h-24 md:h-32 mt-2"  src="Images & Icons/handshake-regular-full.svg">
+                    <p class="mt-4 text-2xl font-semibold">Solidarité</p>
+                </div>
+                <div class="text-center max-w-xs">
+                    <img class="mx-auto h-24 md:h-32 mt-2"  src="Images & Icons/parthenon.png">
+                    <p class="mt-4 text-2xl font-semibold">Préservation du patrimoine</p>
+                </div>
+            </div>
+        </section>
+        <hr class="bg-black mx-8 my-6">
+        <h2 class="ml-8 mb-5 mt-8 text-3xl font-extrabold text-black">Notre impacts</h2>
+        <section class="grid grid-cols-2 md:grid-cols-4 gap-8 px-4 text-center">
+            <div class="flex flex-col items-center gap-2">
+                <img class="h-24 md:h-32 w-auto object-contain" src="Images & Icons/Moroccan Artisan Craft Emblem.png" alt="Moroccan Artisan Craft Emblem">
+                <h2 class="text-2xl font-bold">1500+</h2>
+                <p class="text-lg">Artisans</p>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+                <img class="h-24 md:h-32 w-auto object-contain" src="Images & Icons/stakeholder-management_16939288.png" alt="Cooperatives">
+                <h2 class="text-2xl font-bold">9+</h2>
+                <p class="text-lg">Coopératives</p>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+                <img class="h-24 md:h-32 w-auto object-contain" src="Images & Icons/Morocco Map with Golden Location Pins (1).png" alt="Moroccan map">
+                <h2 class="text-2xl font-bold">12</h2>
+                <p class="text-lg">Régions</p>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+                <img class="h-24 md:h-32 w-auto object-contain" src="Images & Icons/art-craft_12431681.png" alt="Artisan products">
+                <h2 class="text-2xl font-bold">250+</h2>
+                <p class="text-lg">Produits</p>
+            </div>
+        </section>
+        <hr class="bg-black mx-8 my-6">
+        <section>
+            <h2 class="mb-5 mx-8 text-3xl font-extrabold text-black">Notre Histoire</h2>
+            <div class="mx-14 font-medium text-2xl">
+                <p> 2018: Création de l’association TAAWON.</p><br>
+                <p> 2020: Lancement de la première plateforme.</p><br>
+                <p> 2022: Extension à 12 régions.</p><br>
+                <p> 2024: Plus de 25 coopératives partenaires.</p><br>
+            </div>
+        </section>
+        <hr class="bg-black mx-8 my-6">
+        <section class="px-5 py-6 md:px-8">
+            <h2 class="mb-5 text-3xl font-extrabold text-black">Notre équipe</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <article class="bg-[#778483] border rounded-2xl p-6 w-full min-h-[260px]">
+                    <img class="mx-auto block h-24 w-24 rounded-full" src="Images & Icons/member1.webp" alt="member de equipe">
+                    <h3 class="font-extrabold text-2xl flex justify-center items-center">Laila Benali</h3>
+                    <p class="text-xl flex justify-center items-center">Présidente</p>
+                </article>
+                <article class="bg-[#778483] border rounded-2xl p-6 w-full min-h-[260px]">
+                    <img class="mx-auto block h-24 w-24 rounded-full"  src="Images & Icons/member2.webp" alt="member de equipe">
+                    <h3 class="font-extrabold text-2xl flex justify-center items-center">Omar Arrani</h3>
+                    <p class="text-xl flex justify-center items-center">Responsable projets</p>
+                </article>
+                <article class="bg-[#778483] border rounded-2xl p-6 w-full min-h-[260px]">
+                    <img class="mx-auto block h-24 w-24 rounded-full"  src="Images & Icons/member3.webp" alt="member de equipe">
+                    <h3 class="font-extrabold text-2xl flex justify-center items-center">Lucy Chen</h3>
+                    <p class="text-xl flex justify-center items-center">Chargée de communication</p>
+                </article>
+            </div>
+        </section>
+    </main> 
+<footer class="w-full bg-[#ae906b] text-gray-300 py-10 px-6 md:px-16 border-t border-gray-800  bottom-0">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 pb-8 border-b border-gray-800">
+            <div class="flex-shrink-0">
+                <img src="Images & Icons/TAAWON  Logo.webp" alt="Logo" class="h-16 w-auto object-contain">
+            </div>
+            <div class="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-sm">
+                <a href="https://www.instagram.com/" target="_blank" class="flex items-center gap-2 hover:text-white transition">
+                    <img src="Images & Icons/instagram.png" alt="instagram" class="w-5 h-5 object-contain"> Taawon Africa
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" class="flex items-center gap-2 hover:text-white transition"> 
+                    <img src="Images & Icons/social-media_13651151.png" alt="facebook" class="w-5 h-5 object-contain"> Taawon Africa
+                </a>
+                <a href="https://x.com/" target="_blank" class="flex items-center gap-2 hover:text-white transition">
+                    <img src="Images & Icons/twitter_5968958.png" alt="x" class="w-5 h-5 object-contain"> Taawon 02
+                </a>
+                <a href="mailto:TawwonAfrica@gmail.com" target="_blank" class="flex items-center gap-2 hover:text-white transition">
+                    <img src="Images & Icons/e-mail_1.png" alt="email" class="w-5 h-5 object-contain"> TawwonAfrica@gmail.com
+                </a>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="https://www.onssa.gov.ma/" target="_blank">  
+                    <img src="Images & Icons/onssa-logo-transparent.png" alt="ONSSA" class="h-10 object-contain">
+                </a>
+                <a href="https://ammps.sante.gov.ma/" target="_blank"> 
+                    <img src="Images & Icons/ammps-logo-transparent.png" alt="AMMPS" class="h-10 object-contain">
+                </a>
+                <a href="http://www.ompic.ma/" target="_blank">
+                    <img src="Images & Icons/ompic-logo-transparent.png" alt="OMPIC" class="h-10 object-contain">
+                </a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto pt-6 text-center text-xs text-white-400">
+            <h4>© 2026 Taawon — Valorisons ensemble l’artisanat marocain. Conçu et développé par la squad Taawon.</h4>
+        </div>
+    </footer>
 </body>
-</html>
+</html>        
