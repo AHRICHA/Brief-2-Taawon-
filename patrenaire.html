@@ -1,122 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brief 2 TAAWON</title>
+    <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-<header class="flex gap-92 ">
-        <div>
-          <img class="flex mx-auto h-20 gap-12" src="Images & Icons/TAAWON  Logo.webp" alt="hero img">
+<header class="relative flex flex-col md:flex-row md:items-center md:justify-center gap-4 px-4 md:px-8 md:min-h-24">
+        <div class="md:absolute md:left-0 md:top-0">
+          <img class="mx-auto h-20 w-auto md:mx-0" src="Images & Icons/TAAWON  Logo.webp" alt="Logo">
         </div>
-        <nav class="flex gap-6 pt-7 font-bold">
+        <nav class="flex flex-wrap justify-center gap-4 md:gap-6 py-4 md:pt-0 font-bold">
             <a href="index.html">Accueil</a>
             <a href="cooperatives.html">Annuaire</a>
-            <a href="cooperative.html">Cooperative</a>
             <a href="a-propos.html">A propos</a>
             <a href="patrenaire.html">Devenire Partenaire</a>
       </nav>
     </header>
-    <main>
-      <section class="relative flex min-h-[600px] items-center justify-center bg-cover bg-center bg-no-repeat px-5 py-16 text-center text-white"
-        style="background-image: url('Images & Icons/index-main-img.webp');"> 
-
-
-
-</main>
-<div id="page5">
-<form id="formulaire">
-  <div>
-    <label for="comname">Nom de la coopérative</label>
-    <input
-      type="text"
-      name="comname"
-      id="comname"
-      placeholder="Nom de votre coopérative"
-      required
-    />
-  </div>
-
-  <div>
-    <label for="representant">Nom du représentant</label>
-    <input
-      type="text"
-      name="representant"
-      id="representant"
-      placeholder="Nom et prénom"
-      required
-    />
-  </div>
-
-  <div>
-    <label for="email">Adresse e-mail</label>
-    <input
-      type="email"
-      name="email"
-      id="email"
-      placeholder="TaawonAfrica@gmail.com"
-      required
-    />
-  </div>
-
-  <div>
-    <label for="tel">Téléphone</label>
-    <input  type="tel" id="tel" name="tel" required pattern="^(\+212|0)[5-7][0-9]{8}$" placeholder="ex : 06, +212"/> 
-  </div>
-
-  <div>
-    <label for="city">Ville / Région</label>
-    <input
-      type="text"
-      name="city"
-      id="city"
-      placeholder="Ex. : Nador, Oriental"
-      required
-    />
-  </div>
-
-  <div>
-    <label for="secteur">Secteur artisanal</label>
-    <select name="secteur" id="secteur" required>
-      <option value="">Choisir un secteur</option>
-      <option value="tissage">Tissage et tapis</option>
-      <option value="poterie">Poterie et céramique</option>
-      <option value="zellige">Zellige</option>
-      <option value="cuir">Cuir</option>
-      <option value="vannerie">Vannerie</option>
-      <option value="argan">Argan et produits du terroir</option>
-      <option value="autre">Autre</option>
-    </select>
-  </div>
-
-  <div>
-    <label for="description">Présentation de la coopérative</label>
-    <textarea
-      name="description"
-      id="description"
-      rows="5"
-      placeholder="Présentez votre coopérative..."
-      required
-    ></textarea>
-  </div>
-  
-  <button type="submit"> submit ↗</button>
-</form>
-</div>
-<footer class="w-screen bg-[#111111] text-gray-300 py-10 px-6 md:px-16 border-t border-gray-800  bottom-0">
+ùù
+<footer class="w-full bg-[#ae906b] text-gray-300 py-10 px-6 md:px-16 border-t border-gray-800  bottom-0">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 pb-8 border-b border-gray-800">
-
-
         <div class="flex-shrink-0">
             <img src="Images & Icons/TAAWON  Logo.webp" alt="Logo" class="h-16 w-auto object-contain">
         </div>
-
-
-        <div class="flex flex-wrap items-center justify-center gap-6 text-sm">
+        <div class="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-sm">
             <a href="https://www.instagram.com/" target="_blank" class="flex items-center gap-2 hover:text-white transition"> 
                 <img src="Images & Icons/instagram.png" alt="instagram" class="w-5 h-5 object-contain"> Taawon Africa
             </a>
@@ -130,21 +38,18 @@
                 <img src="Images & Icons/e-mail_1.png" alt="email" class="w-5 h-5 object-contain"> TawwonAfrica@gmail.com
             </a>
         </div>
-
         <div class="flex items-center gap-4">
-            <a href="https://www.onssa.gov.ma/" target="_blank">
+            <a href="https://www.onssa.gov.ma/" target="_blank">  
             <img src="Images & Icons/onssa-logo-transparent.png" alt="ONSSA" class="h-10 object-contain">
             <a href="https://ammps.sante.gov.ma/" target="_blank"> 
             <img src="Images & Icons/ammps-logo-transparent.png" alt="AMMPS" class="h-10 object-contain">
            <a href="http://www.ompic.ma/" target="_blank">
            <img src="Images & Icons/ompic-logo-transparent.png" alt="OMPIC" class="h-10 object-contain"> </a>
         </div>
-
     </div>
-
-    <div class="max-w-7xl mx-auto pt-6 text-center text-xs text-gray-400">
+    <div class="max-w-7xl mx-auto pt-6 text-center text-xs text-white-400">
         <h4>© 2026 Taawon — Valorisons ensemble l’artisanat marocain. Conçu et développé par la squad Taawon.</h4>
     </div>
-</footer> 
+</footer>  
 </body>
 </html>
